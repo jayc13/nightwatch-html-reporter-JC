@@ -2,10 +2,10 @@
   "_args": [
     [
       {
-        "raw": "nightwatch-html-reporter@^1.0.8",
+        "raw": "nightwatch-html-reporter-JC@^1.0.8",
         "scope": null,
-        "escapedName": "nightwatch-html-reporter",
-        "name": "nightwatch-html-reporter",
+        "escapedName": "nightwatch-html-reporter-JC",
+        "name": "nightwatch-html-reporter-JC",
         "rawSpec": "^1.0.8",
         "spec": ">=1.0.8 <2.0.0",
         "type": "range"
@@ -106,13 +106,13 @@
       "email": "jls@thejls.com"
     }
   ],
-  "name": "nightwatch-html-reporter",
+  "name": "nightwatch-html-reporter-JC",
   "optionalDependencies": {},
   "preferGlobal": "true",
   "readme": "ERROR: No README data found!",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jls/nightwatch-html-reporter.git"
+    "url": "git://github.com/caballerojavier13/nightwatch-html-reporter-JC.git"
   },
   "scripts": {
     "test": "grunt nodeunit"
