@@ -158,12 +158,20 @@ html(lang="en")
                         div.inner.cover.success
                             h1.status &#10003;
                             h1.cover-heading Everything is awesome!
+                            if environment
+                                h3.cover-heading= 'Environment: ' + toTitleString(environment)
+                            if target && site
+                                h4.cover-heading= 'Target: ' + toTitleString(target) + ' - Site: ' + site.toUpperCase()
                             p.lead.
                                 All the tests passed and you're the best.
                     else
                         div.inner.cover.failure
                             h1.status &#10005;
                             h1.cover-heading There were a few problems :(
+                            if environment
+                                h3.cover-heading= 'Environment: ' + toTitleString(environment)
+                            if target && site
+                                h4.cover-heading= 'Target: ' + toTitleString(target) + ' - Site: ' + site.toUpperCase()
                             p.lead.
                                 It's ok though, we're gonna get through this.
                             div.suites
